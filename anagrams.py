@@ -9,6 +9,12 @@
 
 def anagram(a, b) -> bool:
 
+    if not a or not b:
+        return False
+
+    if len(a) != len(b):
+        return False
+
     a = a.lower()
     b = b.lower()
 
