@@ -3,9 +3,9 @@
 
 # Clarifications: What to return, verify some proper inputs
 
-# Solution:
+# Solution: Recursive, get the left and right list recursively, then combine those together with the root in the middle
 
-# Complexity:
+# Complexity: O(n) time, O(log n) space)
 
 class Node():
 
