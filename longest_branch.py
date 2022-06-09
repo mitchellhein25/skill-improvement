@@ -6,7 +6,7 @@
 # Solution: Recursive, calculate left and right. If next value is current + 1, then call recursive and add 1, else
 #   just call the recursive. return the max of left and right
 
-# Complexity:
+# Complexity: O(n),
 
 class Node:
     def __init__(self, val):
